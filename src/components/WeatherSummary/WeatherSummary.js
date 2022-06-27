@@ -2,6 +2,7 @@ import styles from './WeatherSummary.module.scss';
 
 const WeatherSummary = (props) => {
   return (
+
     <section className={styles.weatherSummary}>
       <img
         className={styles.weatherIcon}
