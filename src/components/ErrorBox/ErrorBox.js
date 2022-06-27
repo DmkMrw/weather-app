@@ -6,7 +6,7 @@ const ErrorBox = ({ children }) => {
     <div className={styles.errorBox}>
       <h1>
         <span className="fa fa-exclamation-triangle" />
-        Error
+        Błąd
       </h1>
       <p>
         {children}
@@ -15,7 +15,7 @@ const ErrorBox = ({ children }) => {
   );
 };
 
-ErrorBox.propTypes = { 
+ErrorBox.propTypes = {
   children: PropTypes.string
 };
 
