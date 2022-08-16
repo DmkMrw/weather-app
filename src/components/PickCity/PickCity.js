@@ -14,7 +14,6 @@ const PickCity = ({ action }) => {
     setCity('');
   };
 
-  // console.log('ref');
 
   return (
     <form className={styles.pickCityForm} onSubmit={handleSubmit}>
